@@ -1,0 +1,55 @@
+<!--End-->
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class=" bar-balanced">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+      <a href="#/tabs/home" class="button button-icon icon ion-home button-clear">Home</a>
+
+      <ion-nav-buttons side="right">
+
+     <button menu-toggle="right" class="button button-icon icon ion-android-more-vertical"></button>
+
+    </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-tabs style="" class="tabs-stable tabs-icon-only">
+        <ion-tab style="" title="" icon="ion-home" href="#/tabs/home">
+            <ion-nav-view name="tab1"></ion-nav-view>
+        </ion-tab>
+        <ion-tab style="" title="" icon="ion-search" href="#/tabs/search">
+            <ion-nav-view name="tab2"></ion-nav-view>
+        </ion-tab>
+        <ion-tab style="" title="" icon="ion-camera" href="#/tabs/media">
+            <ion-nav-view name="tab3"></ion-nav-view>
+        </ion-tab>
+        <ion-tab style="" title="" icon="ion-chatbubble" href="#/tabs/activity">
+            <ion-nav-view name="tab4"></ion-nav-view>
+        </ion-tab>
+        <ion-tab style="" title="" icon="ion-person" href="#/profile/view_profile">
+            <ion-nav-view name="profilePages"></ion-nav-view>
+        </ion-tab>
+    </ion-tabs>
+    
+    <ion-nav-view name="profilePages"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="right">
+    <ion-content class="bgc2">
+      <ion-list>
+        <ion-item menu-close href="#/profile/view_profile" >
+          Profile
+        </ion-item>
+        <ion-item menu-close href="#/profile/edit_profile" >
+          Profile Edit
+        </ion-item>
+        <ion-item menu-close href="#/profile/change_password">
+          Change Password
+        </ion-item>
+        <ion-item menu-close href="#/profile/settings">
+          Settings
+        </ion-item>
+
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

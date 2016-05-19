@@ -1,0 +1,46 @@
+<ion-view style="" title="Post">
+  <div class="bar bar-header bar-positive">
+  <h1 class="title">Share</h1>
+</div>
+    <ion-content class="has-header" padding="true">
+      <div class="" id="output_ele">
+
+      </div>
+
+      <div class="" id="output_media">
+
+      </div>
+      <div class="" id="alert_log">
+
+      </div>
+      <div class="" id="alert_log2">
+
+      </div>
+
+
+      <button type="button" name="button" class="button button-balanced" ng-click="uploadPhotoOrVideo()">Upload Photo / Video</button>
+      <button type="button" name="button" class="button button-balanced" ng-click="capturePhoto()">Capture Photo</button>
+      <button type="button" name="button" class="button button-balanced" ng-click="captureVideo()">Capture Vido</button>
+
+      <div class="list " style="margin-top:20px;">
+        <label class="item item-input">
+          <textarea placeholder="Write a caption..." ng-model="post.description"></textarea>
+        </label>
+        <label class="item item-input">
+          <i class="icon ion-ios-location placeholder-icon"></i>
+          <input type="text" placeholder="Add Location" ng-model="post.location">
+        </label>
+        <label class="item item-input">
+          <i class="icon ion-ios-pricetag placeholder-icon"></i>
+          <input type="text" placeholder="Tag People" ng-model="post.peoples">
+        </label>
+        <label class="item">
+          <button type="button" name="button" class="button button-positive" ng-click="postData(post)">POST</button>
+        </label>
+        <pre>
+        {{post}}
+        {{outputofFileUpload}}
+      </pre>
+      </div>
+    </ion-content>
+</ion-view>

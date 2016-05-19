@@ -1,0 +1,33 @@
+.profile_linka{
+  color:#0d3c5f;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.user_info .item-avatar{min-height: 52px;}
+.user_info .item-avatar img{max-width: 30px;max-height: 30px;}
+.user_info .item-avatar h2{font-size: 20px;margin-left: -15px;color: #2E5675;}
+.feed_description{padding: 0px 0 20px;}
+.i-bar-positive {background: #125688 !important;}
+.i-logo{float: left;padding-top: 5px;}
+.i-fright{float: right !important;}
+hr{border: 1px solid #f2f2f2;}
+.user_posts_item_thumbnail{width: 33%;height: auto;float: left;margin: 0 5px 5px 0;display: block;}
+.user_posts_item_thumbnail img{width:100%;}
+.user_profile_block{
+    height: 130px;
+}
+.user_profile_block .proile_pic{ float: left;width: 80px;height:80px;}
+.user_profile_block .proile_data{float: right;}
+.user_profile_block .proile_data .litems{float: left;padding: 10px;text-align: center;text-decoration: none;color: black;}
+.user_profile_block .proile_data .litems strong{display: block;}
+.user_profile_block .proile_data .posts{ float: left;}
+.user_profile_block .proile_data .followers{ float: left;}
+.user_profile_block .proile_data .followings{ float: left;}
+.avatar{-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;}
+.clearfix{clear: both;}
+.item-time{    font-size: 12px;
+    color: black;
+    font-style: italic;}
